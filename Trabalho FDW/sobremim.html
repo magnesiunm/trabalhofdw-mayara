@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+   <style>
+      /*INICIANDO ESTILIZAÇÃO COM O TÍTULO DA PÁGINA */
+ .titulo {
+    text-align: center;
+    color: rgb(99, 68, 68);
+    background-color: lightcoral;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+ }
+ /*CARACTERIZANDO O MENU*/
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightcoral;
+    text-align: center;
+    }
+    
+ li{float:left;
+align-items: center;
+}
+ li a{
+ display: flex;
+ color: black;
+ padding: 8px 16px;
+ text-decoration: none;
+ align-items: center;
+ ;
+ 
+ }
+  .menu {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ 
+    }
+
+ /*INTERAÇÕES COM OS LINKS*/
+ a:link {
+    text-decoration: none;
+    border:solid rgba(102, 53, 25, 0.918) 1px;
+    padding: 8px 16px;
+    
+    background-color: lightcoral;
+
+ }
+ a:hover {
+    background-color: rgb(255, 255, 255);
+    color:brown;
+ }
+/*DANDO COR PARA A PÁGINA*/
+ body {
+   background-color: lightpink;
+ }
+ footer {
+    text-align: center;
+    color: black;
+    background-color: lightcoral;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+ }
+ .container {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+ }
+.container main {
+   flex: 1 1 0;
+   background-color: transparent;
+   border: 0;
+}
+/*MODIFICANDO O CORPO DO TEXTO*/
+    .texto {
+     color: brown ;
+     border: 2px solid lightcoral;
+     border-radius: 15px 50px 30px 5px;
+     width: 500px;
+     height: auto;
+     text-align: center;
+     margin: auto;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+   }
+  </style>
+  </head>
+
+   <body class="container">
+ <header>
+        <h1 class="titulo">Portfólio Pessoal</h1>
+    </header>
+<main>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html" > Início </a> </li>
+            <li><a href="sobremim.html"> Sobre mim</a> </li>
+            <li><a href="formacao.html"> Formação Educacional </a> </li>
+            <li><a href="portfolio.html"> Portfólio </a> </li>
+            <li> <a href="contato.html"> Contato </a> </li>
+        </ul>
+    </nav>
+
+   <!--UM POUCO SOBRE MIM -->
+     <div class="texto">
+    <h1> Sobre mim</h1>
+    <p> Olá, bem-vindo(a) ao meu portfólio pessoal!<br>
+    Meu nome é Mayara Gabrielle, tenho 19 anos<br>
+e estou cursando Análise e Desenvolvimento de Sistemas na Uninter.</p>
+<p>Me interessei pelo ramo da tecnologia como carreira há pouco tempo,<br>
+     com o intuito de futuramente me aprofundar na área de desenvolvimento e game design.<br>
+    </p>
+    <p>Fora do âmbito profissional e educacional, meus hobbies envolvem jogos, leitura e música.<br> 
+    São coisas que fazem parte da minha vida e da minha pessoa.</p>
+    </div>
+    </main>
+    <footer>
+  <h3> © 2025 Mayara Gabrielle. Todos os direitos reservados.</h3>
+    </footer>
+
+</body>
+
+</html>
